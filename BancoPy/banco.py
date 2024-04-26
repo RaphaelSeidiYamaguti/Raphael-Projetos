@@ -148,8 +148,9 @@ def listar_contas() -> None:
 
 def buscar_conta_por_numero(numero: int) -> Conta:
     c: Conta = None
+    
 
-
+    
     if len(contas) > 0:
         for conta in contas:
             if conta.numero == numero:
